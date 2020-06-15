@@ -95,12 +95,12 @@ public class MpGenerator {
         // 包配置
         PackageConfig pc = new PackageConfig();
         pc.setParent(parentPackage);
-        pc.setController("controller");
-        pc.setService("service");
-        pc.setServiceImpl("service.impl");
-        pc.setMapper("mapper");
-        pc.setEntity("entity");
-        pc.setXml("mapper.xml");
+//        pc.setController("controller");
+//        pc.setService("service");
+//        pc.setServiceImpl("service.impl");
+//        pc.setMapper("mapper");
+//        pc.setEntity("entity");
+//        pc.setXml("mapper.xml");
         autoGenerator.setPackageInfo(pc);
         // 自定义属性注入 没有这个不报错 但是生成失败
         InjectionConfig injectionConfig = new InjectionConfig() {
